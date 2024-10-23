@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+
+            background-color:rgb(189, 189, 189);
+             display:flex;
+             gap: 10px;
+             row-gap:10px;
+             column-gap: 20px;
+         }
+         .item1 {
+            height: 200px;
+            width: 100px;
+            border: solid 2px rgb(48, 71, 50);
+            flex-shrink:1;
+          }
+          .item3 {
+            height: 100px;
+            width: 100px;
+            border: solid 3px rgb(131, 153, 142);
+            flex-grow:3;
+          }
+          
+          
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item1" style ="background-color: rgb(46, 71, 61);"></div>
+        <div class="item3" style ="background-color: rgb(108, 141, 125);"></div>
+        <div class="item1" style ="background-color: rgb(8, 31, 22);"></div>
+    </div>
+    
+    
+
+</body>
+</html>
